@@ -1,0 +1,207 @@
+/*请在1024*764下观看*/
+#bottom-positioner {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  width: 800px;
+  height: 764px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.apb{
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out 0.5s;
+  background: rgba(170, 170, 170, 2) url(images/atplus_white.png) no-repeat 50% 50%;
+}
+#button:hover .apb {
+  background: rgba(48, 63, 159, 1) url(images/atplus_green.png) no-repeat;
+	background-position: 50% 50%;
+	background-size: 95%;
+  transform: scale(2.5,2.5);
+}
+#info-bar{
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  list-style-type: none;
+  transition: all 1s ease-in-out 0.2s;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+#button:hover #info-bar{
+  position: absolute;
+  left: 40%;
+  bottom: 40%;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #7e7e7e;
+  opacity: 1;
+}
+
+.page_user{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.page_user span{
+  margin: 10px;
+}
+.page_comment{
+  font-size: 30px;
+}
+.page_comment span{
+  margin: 15px;
+}
+.mine_posted{
+  font-size: 20px;
+  padding-left: 20px;
+  color: #079E6E;
+  float: left;
+  vertical-align: bottom;
+}
+.mine_posted span{
+  margin: 6px;
+}
+.mine_like{
+  font-size: 20px;
+  padding-left: 0px;
+  color: #079E6E;
+  vertical-align: bottom;
+}
+.mine_like span{
+  margin: 6px;
+}
+#button .mask{
+  background: #7e7e7e url(images/nomask.png) no-repeat 50% 50%;
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out 0.2s;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+#button:hover .mask{
+  opacity: 1;
+  position: absolute;
+  left: 35%;
+  bottom: 38%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#button .history{
+  background: #7e7e7e url(images/history.png) no-repeat 50% 50%;
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out 0.2s;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+#button:hover .history{
+  opacity: 1;
+  position: absolute;
+  left: 32%;
+  bottom: 29%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#button .message{
+  background: #7e7e7e url(images/message.png) no-repeat 50% 50%;
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out 0.2s;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+#button:hover .message{
+  opacity: 1;
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#button .setting{
+  background: #7e7e7e url(images/setting.png) no-repeat 50% 50%;
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out 0.2s;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+#button:hover .setting{
+  opacity: 1;
+  position: absolute;
+  left: 40%;
+  bottom: 14%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#button .sign{
+  background: #7e7e7e url(images/signin.png) no-repeat 50% 50%;
+  position: absolute;
+  left: 45%;
+  bottom: 30%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: all 1s ease-in-out 0.2s;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+#button:hover .sign{
+  opacity: 1;
+  position: absolute;
+  left: 47%;
+  bottom: 14%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ .unread{
+  position: absolute;
+  right: 0;
+  top: -10%;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-top: 0;
+}
